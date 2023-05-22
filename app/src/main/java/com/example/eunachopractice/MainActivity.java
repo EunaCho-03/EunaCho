@@ -9,11 +9,6 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     int resultNum = 0;
-    
-
-    boolean isfirstInput = true; // 입력값이 처음 입력되는가를 체크
-    int resultNumber = 0; // 결과 변수
-    char operator = '+'; // 입력 변수
 
     TextView resultText;
     @Override
@@ -28,5 +23,14 @@ public class MainActivity extends AppCompatActivity {
         switch(view.getId()){
             
         }
+        /*
+        if(view.getId() == R.id.all_clear_button){
+            isfirstInput = true;
+            resultNumber = 0;
+            operator = '+';
+            resultText.setTextColor(0xFF666666);
+            resultText.setText(String.valueOf(resultNumber));
+        }
+*/
     }
 }
