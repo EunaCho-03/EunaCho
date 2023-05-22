@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     int resultNum = 0;
@@ -24,10 +25,9 @@ public class MainActivity extends AppCompatActivity {
         Button getButton = findViewById(view.getId());
         switch(view.getId()){
             default:
-                //   Toast.makeText(getApplicationContext(),getButton.getText().toString()
-                //         + "버튼이 클릭되었습니다", Toast.LENGTH_LONG).show();
-                Log.e("buttonClick","default" + getButton.getText().toString()
-                        + "버튼이 클릭되었습니다");
+                   Toast.makeText(getApplicationContext(),getButton.getText().toString()
+                         + "버튼이 클릭되었습니다", Toast.LENGTH_LONG).show();
+
                 break;
         }
 
