@@ -21,5 +21,6 @@ public class MainActivity extends AppCompatActivity {
         resultText = findViewById(R.id.result_text);
     }
     public void buttonClick(View view) {
+        Button getButton = findViewById(view.getId());
     }
 }
