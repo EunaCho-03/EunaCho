@@ -24,7 +24,9 @@ public class MainActivity extends AppCompatActivity {
     public void buttonClick(View view) {
         Button getButton = findViewById(view.getId());
         switch(view.getId()){
-            
+            default:
+                //   Toast.makeText(getApplicationContext(),getButton.getText().toString()
+                //         + "버튼이 클릭되었습니다", Toast.LENGTH_LONG).show();
         }
     }
 }
