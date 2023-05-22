@@ -20,7 +20,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         resultText = findViewById(R.id.result_text);
     }
+
     public void buttonClick(View view) {
         Button getButton = findViewById(view.getId());
+        switch(view.getId()){
+            
+        }
     }
 }
